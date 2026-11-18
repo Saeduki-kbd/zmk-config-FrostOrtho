@@ -9,7 +9,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - {t: O, h: '-'}
   - P
   - A
   - S
@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: '5'}
+  - {t: ↵, h: '5'}
   - {t: Z, h: Shift}
   - X
   - C
@@ -30,24 +30,103 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: '7'}
-  - {t: Tab, h: Ctrl}
+  - {t: INT RO, h: ^}
+  - {t: Ctrl, h: '7'}
   - Win
   - Alt
-  - {t: LANG2, h: '7'}
-  - {t: Space, h: '2'}
-  - {t: LANG1, h: '3'}
-  - {t: ↵, h: '1'}
+  - '1'
+  - Space
+  - {t: LANG ZENKAKUHANKAKU, h: '3'}
   - BS
-  - 半角 全角
-  - {t: F10, h: '4'}
-  - {t: \, h: Shift}
+  - '2'
+  - RALT
+  - {t: Shift, h: '4'}
+  - {t: /, h: '@'}
   '1':
+  - '7'
+  - '8'
+  - '9'
+  - KP MULTIPLY
+  - KP SLASH
+  - KP NLCK
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - '4'
+  - '5'
+  - '6'
+  - KP PLUS
+  - KP MINUS
+  - KP 0
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - Sft+^
+  - KP DOT
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP MULTIPLY
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
+  - KP SLASH
+  '2':
+  - EXCLAMATION
+  - AT SIGN
+  - HASH
+  - DOLLAR
+  - PERCENT
+  - PAGE UP
+  - Home
+  - ↑
+  - End
+  - PRINTSCREEN
+  - CARET
+  - AMPERSAND
+  - ASTRK
+  - LEFT PARENTHESIS
+  - INT RO
+  - PAGE DOWN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - SCROLLLOCK
+  - APOSTROPHE
+  - ;
+  - '@'
+  - '['
+  - ']'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - PAUSE BREAK
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  '3':
   - F1
   - F2
   - F3
@@ -68,90 +147,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - F11
   - F12
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - Del
-  - {type: trans}
-  - {type: trans}
-  - Esc
-  '2':
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - '*'
-  - '#'
-  - $
-  - '%'
-  - '&'
-  - '@'
-  - '-'
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - '"'
-  - ''''
-  - '`'
-  - (
-  - )
-  - {t: '0', h: Shift}
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - ;
-  - ':'
-  - '|'
-  - '['
-  - ']'
-  - {t: '=', h: Ctrl}
-  - ↵
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - '!'
-  - ^
-  '3':
-  - Esc
-  - {type: trans}
-  - ↑
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - Home
-  - ←
-  - ↓
-  - →
-  - End
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - Shift
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - F13
+  - F14
+  - F15
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -297,18 +297,18 @@ layers:
   '7':
   - Ctrl+Z
   - Ctrl+Y
+  - Ctl+Tab
+  - Ctl+Sft+Tab
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - AltGr+←
+  - AltGr+→
+  - Ctl+Gui+←
+  - Ctl+Gui+→
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -319,6 +319,7 @@ layers:
   - スクショ
   - Ctrl+Ins
   - Shift+Ins
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -335,4 +336,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
+- p: [10, 11]
+  k: Tab
+- p: [20, 21]
+  k: CAPS
