@@ -36,9 +36,9 @@ layers:
   - Alt
   - '1'
   - Space
-  - {t: LANG ZENKAKUHANKAKU, h: '3'}
+  - {t: LANG1, h: '3'}
   - BS
-  - '2'
+  - {t: LANGUAGE 2, h: '2'}
   - RALT
   - {t: Shift, h: '4'}
   - {t: /, h: '@'}
