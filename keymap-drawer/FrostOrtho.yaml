@@ -31,16 +31,16 @@ layers:
   - ','
   - .
   - {t: INT RO, h: ^}
-  - {t: Ctrl, h: '7'}
+  - Ctrl
   - Win
   - Alt
   - '1'
   - Space
   - {t: LANG1, h: '3'}
-  - BS
   - {t: LANGUAGE 2, h: '2'}
+  - BS
   - RALT
-  - {t: Shift, h: '4'}
+  - Shift
   - {t: /, h: '@'}
   '1':
   - '7'
@@ -67,7 +67,7 @@ layers:
   - '2'
   - '3'
   - '0'
-  - Sft+^
+  - '='
   - KP DOT
   - KP 1
   - KP 2
@@ -121,8 +121,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
   - {type: held}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -209,7 +209,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: held}
-  - BT CLR ALL
+  - {t: BT CLR ALL, type: held}
   '5':
   - {type: trans}
   - {type: trans}
@@ -300,7 +300,7 @@ layers:
   - Ctl+Tab
   - Ctl+Sft+Tab
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -325,13 +325,13 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -343,3 +343,7 @@ combos:
   k: Tab
 - p: [20, 21]
   k: CAPS
+- p: [40, 39]
+  k: {t: Shift, h: '4'}
+- p: [5, 36]
+  k: {t: PRINTSCREEN, h: '7'}

@@ -267,7 +267,7 @@ text.layer-activator { text-decoration: none; }
 </g>
 <g transform="translate(252, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Sft+^</text>
+<text x="0" y="0" class="key tap">=</text>
 </g>
 <g transform="translate(476, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -346,6 +346,18 @@ text.layer-activator { text-decoration: none; }
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="42" y="127" width="28" height="26" class="combo"/>
 <text x="56" y="140" class="combo tap">CAPS</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="183" width="28" height="26" class="combo"/>
+<text x="672" y="196" class="combo tap">Shift</text>
+<text x="672" y="207" class="combo hold">4</text>
+</g>
+<g class="combo combopos-4">
+<path d="M476,112 l0,-65" class="combo"/>
+<path d="M476,112 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="462" y="99" width="28" height="26" class="combo"/>
+<text x="476" y="112" class="combo tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
+<text x="476" y="123" class="combo hold">7</text>
 </g>
 </g>
 </g>
