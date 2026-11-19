@@ -59,6 +59,16 @@
             bindings = <&kp CAPS>;
             key-positions = <20 21>;
         };
+
+        layer4 {
+            bindings = <&lt 4 RIGHT_SHIFT>;
+            key-positions = <40 39>;
+        };
+
+        Layer7 {
+            bindings = <&lt 7 PRINTSCREEN>;
+            key-positions = <5 36>;
+        };
     };
 
     macros {
@@ -134,10 +144,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R  &kp T                       &kp Y          &kp U                   &kp I      &mt MINUS O        &kp P
-&kp A               &kp S         &kp D         &kp F  &kp G                       &kp H          &kp J                   &kp K      &kp L              &lt 5 ENTER
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V  &kp B                       &kp N          &kp M                   &kp COMMA  &kp PERIOD         &mt EQUAL INT_RO
-&lt 7 LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &lt 3 LANG1      &kp BACKSPACE  &hold_tap 2 LANGUAGE_2  &kp RALT   &lt 4 RIGHT_SHIFT  &mt LEFT_BRACKET SLASH
+&kp Q             &kp W         &kp E         &kp R  &kp T                       &kp Y                   &kp U          &kp I      &mt MINUS O      &kp P
+&kp A             &kp S         &kp D         &kp F  &kp G                       &kp H                   &kp J          &kp K      &kp L            &lt 5 ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B                       &kp N                   &kp M          &kp COMMA  &kp PERIOD       &mt EQUAL INT_RO
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &lt 3 LANG1      &hold_tap 2 LANGUAGE_2  &kp BACKSPACE  &kp RALT   &kp RIGHT_SHIFT  &mt LEFT_BRACKET SLASH
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -147,7 +157,7 @@
             bindings = <
 &kp N7        &kp N8        &kp N9        &kp KP_MULTIPLY  &kp KP_SLASH               &kp KP_NLCK      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS      &kp KP_MINUS               &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0           &kp LS(EQUAL)              &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0           &kp LS(MINUS)              &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY
 &trans        &trans        &trans        &trans           &trans         &trans      &trans           &trans           &trans           &trans           &kp KP_SLASH
             >;
 
