@@ -34,7 +34,7 @@ layers:
   - Ctrl
   - Win
   - Alt
-  - default
+  - '1'
   - Space
   - {t: LANG1, h: '3'}
   - BS
@@ -76,7 +76,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
