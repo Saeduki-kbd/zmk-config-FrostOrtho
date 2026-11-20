@@ -37,8 +37,8 @@ layers:
   - '1'
   - Space
   - {t: LANG1, h: '3'}
-  - {t: LANGUAGE 2, h: '2'}
   - BS
+  - {t: LANGUAGE 2, h: '2'}
   - RALT
   - Shift
   - {t: /, h: '@'}
@@ -121,8 +121,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
   - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
